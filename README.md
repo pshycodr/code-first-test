@@ -63,13 +63,13 @@ Retrieve all submitted ideas.
 
 ### 1. What are the main HTTP methods used in REST APIs, and what is the typical purpose of each?
 
-- **GET**: Retrieves data from the server (e.g., list or fetch a specific resource).
+- **GET**: Retrieves data from the server.
 - **POST**: Creates a new resource on the server.
 - **PUT**: Updates an existing resource entirely.
-- **PATCH**: Partially updates a resource (not always used).
+- **PATCH**: Partially updates a resource.
 - **DELETE**: Removes a resource from the server.
 
-These methods correspond to CRUD operations:
+These methods correspond to CRUD (Create, Read, Update, Delete) operations:
 - **Create**: POST
 - **Read**: GET
 - **Update**: PUT/PATCH
